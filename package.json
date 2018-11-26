@@ -1,18 +1,20 @@
 {
-  "name": "calculator",
-  "version": "1.0.0",
-  "description": "A simple calculator",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "keywords": [
-    "calculator"
-  ],
-  "author": "Andrew Chalkley <andrew@teamtreehouse.com> (https://teamtreehouse.com/)",
-  "license": "MIT",
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
-  }
+	"name": "calculator",
+	"version": "1.0.0",
+	"description": "A simple calculator",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha",
+		"test:coverage": "istanbul cover _mocha"
+	},
+	"keywords": [
+		"calculator"
+	],
+	"author": "Andrew Chalkley <andrew@teamtreehouse.com> (https://teamtreehouse.com/)",
+	"license": "MIT",
+	"devDependencies": {
+		"chai": "^3.5.0",
+		"istanbul": "^0.4.5",
+		"mocha": "^3.2.0"
+	}
 }
